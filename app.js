@@ -46,6 +46,9 @@ const input=element=>{
 
 }
 const result=()=>{
+  if(display.innerHTML==='0'){
+    return 
+  }
   ans=eval(saveScreen);
   display.innerHTML=ans;
 }
