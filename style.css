@@ -1,0 +1,94 @@
+body{
+
+}
+.container{
+  width:500px;
+  height:500px;
+  display:grid;
+  border:solid 2px #333;
+  grid-template-areas:
+  'display display display display'
+  'multiply division subtract plus'
+  'decimal nine eight seven'
+  'six five four three'
+  'two one zero equal'
+  'cancel cancel cancel cancel';
+
+}
+.multiply,.division,.subtract,.plus,
+.decimal,.nine,.eight,.seven,.six,.five,
+.four,.three,.two,.one,.zero,.equal,.cancel{
+  border:1px solid #f4f4f4;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #146eb4;
+  color:#ff9900;
+}
+
+
+
+
+.display{
+  grid-area:display;
+  font-size: 30px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding:0 10px;
+  background: #333;
+  color:white;
+
+}
+.multiply{
+  grid-area:multiply;
+}
+.division{
+  grid-area:division;
+}
+.subtract{
+  grid-area:subtract;
+}
+.plus{
+  grid-area:plus;
+}
+.decimal{
+  grid-area:decimal;
+}
+.nine{
+  grid-area:nine;
+}
+.eight{
+  grid-area:eight;
+}
+.seven{
+  grid-area:seven;
+}
+.six{
+  grid-area:six;
+}
+.five{
+  grid-area:five;
+}
+.four{
+  grid-area:four;
+}
+.three{
+  grid-area:three;
+}
+.two{
+  grid-area:two;
+}
+.one{
+  grid-area:one;
+}
+.zero{
+  grid-area:zero;
+}
+.equal{
+  grid-area:equal;
+}
+.cancel{
+  grid-area:cancel;
+}
